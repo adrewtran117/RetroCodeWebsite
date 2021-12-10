@@ -1,0 +1,39 @@
+{% extends'base.html' %}
+
+{% block title %} {{title}} {% endblock %}
+
+{% block content %}
+
+
+  <div class = "container">
+    <div class = "pagetitles">
+    <h2 style="color:white;font-size:45px;">Games</h2>
+    </div>
+
+  </div>
+  <div class="pong">
+    <h2>Code Pong</h2>
+    <h3 style = font-size:20px>Learn how to code while hitting the ball into your opponent's zone in the classic game Pong!</h3>
+    <div class= "learnmorebutton">
+      <ul class="learnmore">
+        <a href="{{url_for('pong')}}" class="btn btn-info" role="button">How to Play</a>
+      </ul>
+    </div>
+    <img src="static/pong.jpg" alt="Pong" width="400" height="250">
+  
+  </div>
+</div>
+
+<div class="maze">
+  <h2>Escape the Maze</h2>
+  <h3 style = font-size:20px>Use instructions to guide your players and try to navigate through a maze with code blocks!</h3>
+  <div class= "learnmorebutton">
+    <ul class="learnmore">
+      <a href="{{url_for('maze')}}" class="btn btn-info" role="button">How to Play</a>
+    </ul>
+  </div>
+  <img src="static/maze.jpg" alt="Maze" width="400" height="250">
+
+</div>
+
+{% endblock %}

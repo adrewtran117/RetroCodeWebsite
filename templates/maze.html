@@ -1,0 +1,39 @@
+{% extends'base.html' %}
+
+{% block title %} Welcome{% endblock %}
+
+{% block content %}
+
+<div class = "pongtitle">
+  <h1>How to Play Maze Escape:</h1>
+  </div>
+  <div class = "gameinfo">
+      <h2>
+          Materials Needed:
+      </h2>
+      <p>
+        <ul>
+            <li>Printable Maze Map</li>
+            <li>Printable Character Marker</li>
+            <li>Paper and Pencil</li>
+          </ul>  
+      </p>
+      <img src="static/MazeSheet.png" alt="MazeSheet" width="500" height="350">
+      <img src="static/MazePieces.png" alt="MazePieces" width="500" height="350">
+      <h2>
+        How to Play!
+      </h2>
+      <p>
+        <ol>
+          <li>The character marker starts at one of the open ends of the maze map</li>
+          <h3>Cooperative</h3>
+          <li>Work as a team to put the coding block pieces in the order you would need to get the character from one end of the maze to the other.</li>
+          <h3>Competitive</h3>
+          <li>Both players work on their own to find the right order of coding blocks to reach the end of the maze. First person to get the right sequence of steps wins!</li>
+          <li>Set the amount of points needed to win and have fun!</li>
+        </ol> 
+        Note: You can use a pencil to write down your order of steps or to draw a path through the maze that you will follow.
+      </p>
+  </div>
+
+{% endblock %}

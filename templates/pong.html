@@ -1,0 +1,46 @@
+{% extends'base.html' %}
+
+{% block title %} Welcome{% endblock %}
+
+{% block content %}
+
+<div class = "pongtitle">
+  <h1>How to Play Pong:</h1>
+  </div>
+  <div class = "gameinfo">
+      <h2>
+          Materials Needed:
+      </h2>
+      <p>
+        <ul>
+            <li>Printable Game Playing Field Sheet</li>
+            <li>Printable Game Pieces</li>
+            <li>Ball</li>
+            <li>"Paddle Piece"</li>
+            <li>Paper and Pencil</li>
+          </ul>  
+      </p>
+      <img src="static/PongGameSheet.png" alt="PongGameSheet" width="500" height="350">
+      <img src="static/PongGamePieces.png" alt="PongGameSheet" width="500" height="350">
+      <h2>
+        How to Play!
+      </h2>
+      <p>
+        Thrower - Person who chooses which block the ball lands on
+        <br>
+        Receiver - Person who uses the game pieces to move the paddle to the spot.
+        <br>
+        <ol>
+          <li>The Paddle starts in the middle block on the receiver's side.</li>
+          <li>The thrower tells the other which block the ball will land on. It is their job to use the coding block
+            pieces to move the paddle so that it will move to the slot in which the ball goes.
+          </li>
+          <li>If the code is wrong and the paddle does not end up where the ball is, then the other thrower gains a point.</li>
+          <li>Both players take turns being the receiver and thrower.</li>
+          <li>Set the amount of points needed to win and have fun!</li>
+        </ol> 
+        Note: You can use a pencil to fill in or change numbers on the coding blocks.
+      </p>
+  </div>
+
+{% endblock %}

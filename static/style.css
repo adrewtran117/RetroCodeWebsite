@@ -1,0 +1,108 @@
+h1{
+    color:white;
+    font-size: 56px;
+}
+body{
+    background-image: url('space.jpg');
+}
+.entirebar{
+    text-align:left;
+    right:20%;
+}
+.tabs{
+    text-align:left;
+}
+.hello{
+    font-size: 300px;
+    font-family: "Andale Mono", monospace;
+    margin:0;
+    padding:0;
+    text-align:center;
+    position:absolute;
+    top: 40%;
+    left:50%;
+    transform: translateX(-50%);
+    animation: blink 2s infinite; 
+}
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+.pagetitles{
+    font-size: 200px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    position:absolute;
+    top: 10%;
+    left:40%;
+    right:40%;
+}
+.pong{
+    color:white;
+    background-color: rgba(190,90,250, .85);
+    font-size: 200px;
+    margin:5;
+    padding:5;
+    text-align:center;
+    position:absolute;
+    top: 30%;
+    left:22%;
+}
+.maze{
+    color:white;
+    background-color: rgba(190,90,250, .85);
+    font-size: 200px;
+    margin:5;
+    padding:5;
+    text-align:center;
+    position:absolute;
+    top: 80%;
+    left:22%;
+}
+
+.ryan{
+    color:white;
+    font-size: 17px;
+    text-align:center;
+    margin:10;
+    padding:20;
+    position:absolute;
+    top: 30%;
+    right: 15%;
+    left:15%;
+}
+.learnmorebutton{
+    font-size: 30px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    position:absolute;
+    top: 18%;
+    left:47%;
+    transform: translateX(-50%);
+}
+.pongtitle{
+    color:white;
+    font-size: 17px;
+    text-align:center;
+    margin:10;
+    padding:20;
+    position:absolute;
+    top: 10%;
+    right: 15%;
+    left:15%;
+}
+.gameinfo{
+    color:white;
+    font-size: 17px;
+    margin:10;
+    padding:20;
+    position:absolute;
+    top: 25%;
+    right: 15%;
+    left:15%;
+}
+
+
